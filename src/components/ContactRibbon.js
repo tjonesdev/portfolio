@@ -1,5 +1,5 @@
 import React from "react";
-import {links} from "../variables/variables";
+import {links} from "../index";
 export const ContactRibbon = props => {
   return (
     <div className='contact-ribbon' aria-label='Contact Ribbon'>
