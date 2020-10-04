@@ -8,6 +8,7 @@ to = "https://www.tjonesdev.com"
 status = 301
 force = true
 
+[[redirects]]
 from = "/calculator_react/*"
 to = "https://tjonesdev.com/calculator_react/:splat"
 status = 200
