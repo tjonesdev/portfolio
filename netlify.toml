@@ -10,6 +10,6 @@ force = true
 
 [[redirects]]
 from = "/calculator_react/*"
-to = "calculator.tjonesdev.com"
+to = "http://calculator.tjonesdev.com"
 status = 301
 force = true
