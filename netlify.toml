@@ -7,3 +7,6 @@ from = "https://tjonesdev.netlify.app"
 to = "https://www.tjonesdev.com"
 status = 301
 force = true
+
+from = "/calculator_react/*"
+to = "https://tjonesdev.netlify.app/calculator_react/:splat 200!"
