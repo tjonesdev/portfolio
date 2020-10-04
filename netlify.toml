@@ -13,3 +13,27 @@ from = "/calculator_react/*"
 to = "https://calculator.tjonesdev.com"
 status = 301
 force = true
+
+[[redirects]]
+from = "/pomodoro-clock_react/*"
+to = "https://pomodoro.tjonesdev.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "/technical-documentation-page_htmlcss/*"
+to = "https://methods.tjonesdev.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "/bookshelf_vanillajs/*"
+to = "https://bookshelf.tjonesdev.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "/slackers_v4_vanillajs_sass/*"
+to = "https://slackers.tjonesdev.com"
+status = 301
+force = true
