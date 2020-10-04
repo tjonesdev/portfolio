@@ -21,6 +21,18 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/markdown-previewer_react/*"
+to = "https://markdown.tjonesdev.com"
+status = 301
+force = true
+
+[[redirects]]
+from = "/random-quote-machine_react_alt/*"
+to = "https://quote.tjonesdev.com"
+status = 301
+force = true
+
+[[redirects]]
 from = "/technical-documentation-page_htmlcss/*"
 to = "https://methods.tjonesdev.com"
 status = 301
