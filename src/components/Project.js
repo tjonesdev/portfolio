@@ -16,6 +16,7 @@ export const Project = props => {
           <div className='project-thumbnail'>
             <iframe
               src={props.link}
+              title={props.title}
               className='project-iframe'
               frameborder='0'
               scrolling='no'
