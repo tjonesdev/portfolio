@@ -23,7 +23,6 @@ const greetingsArr = [
   "Hallo",
   "Shalom"
 ];
-const github = "https://tjonesdev.github.io/";
 export const links = {
   email: "tracey.l.jones@outlook.com",
   github: "https://github.com/tjonesdev",
@@ -32,42 +31,42 @@ export const links = {
   projects: [
     {
       title: "Calculator",
-      link: github + "calculator_react",
+      link: "/calculator_react",
       img: ""
     },
     {
       title: "Pomodoro Clock",
-      link: github + "pomodoro-clock_react",
+      link: "/pomodoro-clock_react",
       img: ""
     },
     {
       title: "Drum Machine",
-      link: github + "drum-machine_react",
+      link: "/drum-machine_react",
       img: ""
     },
     {
       title: "Markdown Previewer",
-      link: github + "markdown-previewer_react",
+      link: "/markdown-previewer_react",
       img: ""
     },
     {
       title: "Random Quote Machine",
-      link: github + "random-quote-machine_react_alt",
+      link: "/random-quote-machine_react_alt",
       img: ""
     },
     {
       title: "Technical Documentation Page",
-      link: github + "technical-documentation-page_htmlcss",
+      link: "/technical-documentation-page_htmlcss",
       img: ""
     },
     {
       title: "Bookshelf",
-      link: github + "bookshelf_vanillajs",
+      link: "/bookshelf_vanillajs",
       img: ""
     },
     {
       title: "Slackers CDs & Games",
-      link: "https://tjonesdev-work.github.io/slackers_v4_vanillajs_sass/",
+      link: "/slackers_v4_vanillajs_sass/",
       img: ""
     }
   ]
