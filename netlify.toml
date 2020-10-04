@@ -10,6 +10,6 @@ force = true
 
 [[redirects]]
 from = "/calculator_react/*"
-to = "https://tjonesdev.com/calculator_react/:splat"
+to = "https://tjonesdev-calculator.com/:splat"
 status = 200
 force = true
