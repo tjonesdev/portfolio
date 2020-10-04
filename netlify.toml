@@ -1,0 +1,9 @@
+[build]
+publish="public/"
+command = "npm run build"
+
+[[redirects]]
+from = "https://tjonesdev.netlify.app"
+to = "https://www.tjonesdev.com"
+status = 301
+force = true
