@@ -21,6 +21,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/drum-machine_react/*"
+to = "https://drum.tjonesdev.com"
+status = 301
+force = true
+
+[[redirects]]
 from = "/markdown-previewer_react/*"
 to = "https://markdown.tjonesdev.com"
 status = 301
