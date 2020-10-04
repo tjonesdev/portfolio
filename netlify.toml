@@ -9,6 +9,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "https://tjonesdev.github.io"
+to = "https://www.tjonesdev.com"
+status = 301
+force = true
+
+[[redirects]]
 from = "/calculator_react/*"
 to = "https://calculator.tjonesdev.com"
 status = 301
