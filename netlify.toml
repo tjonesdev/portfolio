@@ -9,7 +9,7 @@ status = 301
 force = true
 
 [[redirects]]
-from = "https://calculator.tjonesdev.com"
-to = "https://www.tjonesdev.com/calculator"
+from = "/calculator_react/*"
+to = "calculator.tjonesdev.com"
 status = 301
 force = true
