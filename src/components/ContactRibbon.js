@@ -44,14 +44,17 @@ export const ContactRibbon = props => {
               href={links.github}
               target='_blank'
               rel='noopener noreferrer'
-              tab-index={props.isRibbon ? "0" : "-1"}>
-              <i class='fab fa-github' aria-label='Github'></i>
-            </a>
-          </li>
-          <li aria-label='Contact Ribbon Item'>
-            <a
-              className='contact-ribbon-link'
-              aria-label='Contact Ribbon Link'
+					<li aria-label='Contact Ribbon Item'>
+						<a
+							className='contact-ribbon-link'
+							aria-label='Contact Ribbon Link'
+							href={links.gitlab}
+							target='_blank'
+							rel='noopener noreferrer'
+							tab-index={props.isRibbon ? '0' : '-1'}>
+							<i class='fab fa-gitlab' aria-label='Gitlab'></i>
+						</a>
+					</li>
               href={links.linkedin}
               target='_blank'
               rel='noopener noreferrer'
