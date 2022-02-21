@@ -10,15 +10,16 @@ export const Skills = props => {
       </h3>
       <div className='skills-container' aria-label='Skills Container'>
         <ul aria-label='Skills List'>
-          <li aria-label='Skill Item'>JavaScript</li>
-          <li aria-label='Skill Item'>D3</li>
-          <li aria-label='Skill Item'>React</li>
-          <li aria-label='Skill Item'>Redux</li>
-          <li aria-label='Skill Item'>Git</li>
-          <li aria-label='Skill Item'>Web Design</li>
-          <li aria-label='Skill Item'>Material UI</li>
-        </ul>
-      </div>
-    </section>
-  );
+					<li aria-label='Skill Item'>SCSS</li>
+					<li aria-label='Skill Item'>Tailwind</li>
+					<li aria-label='Skill Item'>JavaScript</li>
+					<li aria-label='Skill Item'>jQuery</li>
+					<li aria-label='Skill Item'>React & Redux</li>
+					<li aria-label='Skill Item'>Vue</li>
+					<li aria-label='Skill Item'>WordPress</li>
+					<li aria-label='Skill Item'>PHP</li>
+					<li aria-label='Skill Item'>Laravel</li>
+					<li aria-label='Skill Item'>Webpack</li>
+					<li aria-label='Skill Item'>Git</li>
+				</ul>
 };
