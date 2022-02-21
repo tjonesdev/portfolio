@@ -16,13 +16,7 @@ export const ContactRibbon = props => {
       <div
         className='contact-ribbon-bkg'
         style={{
-          width: props.isRibbon ? "15.875em" : "0",
-          backgroundColor: props.isRibbon ? "" : "transparent"
-        }}
-        aria-label='Contact Ribbon Container'>
-        <ul
-          id='contact-ribbon-items'
-          style={{
+					width: props.isRibbon ? '17.875em' : '0',
             visibility: props.isRibbon ? "visible" : "hidden",
             opacity: props.isRibbon ? "1" : "0"
           }}
