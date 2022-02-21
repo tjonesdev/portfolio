@@ -24,22 +24,9 @@ const greetingsArr = [
   "Shalom"
 ];
 export const links = {
-  email: "tracey.l.jones@outlook.com",
-  github: "https://github.com/tjonesdev",
-  linkedin: "https://www.linkedin.com/in/traceylynjones/",
-  codepen: "https://codepen.io/justkeepprogramming/",
-  projects: [
-    {
-      title: "Calculator",
-      link: "/calculator_react",
-      img: ""
-    },
-    {
-      title: "Pomodoro Clock",
-      link: "/pomodoro-clock_react",
-      img: ""
-    },
-    {
+	email: 'tracey@tjonesdev.com',
+	gitlab: 'https://gitlab.com/tjonesdev',
+	linkedin: 'https://www.linkedin.com/in/tjonesdev/',
       title: "Drum Machine",
       link: "/drum-machine_react",
       img: ""
