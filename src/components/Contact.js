@@ -21,23 +21,19 @@ export const Contact = props => {
           tabindex={props.isOverlay ? "-1" : "0"}
           aria-label='Email Link'>
           <div className='ripple' aria-hidden='true'></div>
-          tracey.l.jones@outlook.com
-        </a>
-        <ul aria-label='Contact List' className='contact-list'>
-          <li aria-label='Contact Item'>
-            <a
-              href={links.github}
-              target='_blank'
-              rel='noopener noreferrer'
-              className='contact-link btn-ripple'
-              tabindex={props.isOverlay ? "-1" : "0"}
-              aria-label='Contact Link'>
-              <div className='ripple' aria-hidden='true'></div>
-              <i class='fab fa-github' aria-label='Github'></i>
-            </a>
-          </li>
-          <li aria-label='Contact Item'>
-            <a
+					tracey@tjonesdev.com
+					<li aria-label='Contact Item'>
+						<a
+							href={links.gitlab}
+							target='_blank'
+							rel='noopener noreferrer'
+							className='contact-link btn-ripple'
+							tabindex={props.isOverlay ? '-1' : '0'}
+							aria-label='Contact Link'>
+							<div className='ripple' aria-hidden='true'></div>
+							<i class='fab fa-gitlab' aria-label='Gitlab'></i>
+						</a>
+					</li>
               href={links.linkedin}
               target='_blank'
               rel='noopener noreferrer'
